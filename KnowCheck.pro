@@ -17,7 +17,8 @@ SOURCES += \
     ./framework/guiwriter.cpp \
     ./framework/filewriter.cpp \
     ./framework/logmessage.cpp \
-    ./framework/tracer.cpp
+    ./framework/tracer.cpp \
+    clessonfile.cpp
 
 HEADERS += \
     mainwindow.h \
@@ -29,7 +30,8 @@ HEADERS += \
     ./framework/filewriter.h \
     ./framework/logmessage.h \
     ./framework/tracer.h \
-    knowcheck.h
+    knowcheck.h \
+    clessonfile.h
 
 FORMS += \
     mainwindow.ui
