@@ -8,14 +8,28 @@ QT       += core gui
 
 TARGET = KnowCheck
 TEMPLATE = app
-
+INCLUDEPATH += ./framework
 
 SOURCES += \
     main.cpp\
-    mainwindow.cpp
+    mainwindow.cpp \
+    ./framework/logger.cpp \
+    ./framework/guiwriter.cpp \
+    ./framework/filewriter.cpp \
+    ./framework/logmessage.cpp \
+    ./framework/tracer.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    ./framework/severity.h \
+    ./framework/sevexception.h \
+    ./framework/logger.h \
+    ./framework/logwriter.h \
+    ./framework/guiwriter.h \
+    ./framework/filewriter.h \
+    ./framework/logmessage.h \
+    ./framework/tracer.h \
+    knowcheck.h
 
 FORMS += \
     mainwindow.ui
