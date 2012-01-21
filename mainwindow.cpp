@@ -13,7 +13,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
 
     cLessonFile     lfFile;
 
-    lfFile.setLessonFileName( "Lecke1.txt" );
+    lfFile.setLessonFileName( QString("Lecke1.txt") );
 }
 
 MainWindow::~MainWindow()
